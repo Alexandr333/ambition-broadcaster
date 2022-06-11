@@ -1,6 +1,6 @@
 {
-  "name": "module",
-  "title": "New Module",
+  "name": "ambition-broadcaster",
+  "title": "При изменении амбиций игроками, оповещает ГМ посредством сообщения.",
   "description": "",
   "version": "This is auto replaced",
   "library": "false",
