@@ -1,3 +1,5 @@
+Hooks.call('ambitions-broadcaster.close', {});
+
 Hooks.once('init', async function() {
   console.log('init')
 });
@@ -46,3 +48,5 @@ updateActorListenerID = Hooks.on('updateActor', (a, b) => {
 Hooks.once('ambitions-broadcaster.close', () => {
   Hooks.off('updateActor', updateActorListenerID);
 });
+
+
