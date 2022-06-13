@@ -7,6 +7,8 @@ Hooks.once('ready', async function() {
 });
 
 updateActorListenerID = Hooks.on('updateActor', (a, b) => {
+  if(game?.user?.name !== a?.name) return;
+
   let messages=[];
   if(b?.data?.details['personal-ambitions'] && b?.data?.details['personal-ambitions']['short-term'] !== undefined) {
     messages[0] = `Личная краткосрочная амбиция изменена:`;
