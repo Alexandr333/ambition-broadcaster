@@ -1,7 +1,7 @@
 {
-  "name": "ambition-broadcaster",
-  "title": "При изменении амбиций игроками, оповещает ГМ посредством сообщения.",
-  "description": "",
+  "name": "Warhammer_Team_Working",
+  "title": "Наработки нашей комманды",
+  "description": "Наработки, реализованные в процессе игры.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,9 +9,9 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Pofigism",
+      "url": "=()=",
+      "discord": "nope"
     }
   ],
   "dependencies": [
@@ -35,6 +35,56 @@
       "name": "English",
       "path": "languages/en.json"
     }
+  ],
+    "packs": [
+		{
+			"name": "Old_Actors",
+			"label": "Old_Actors",
+			"path": "assets/data/actors.db",
+			"module": "Warhammer_Team_Working",
+			"type": "Actor",
+			"system": "wfrp4e"
+		},
+    {
+			"name": "Old_Items",
+			"label": "Old_Items",
+			"path": "assets/data/items.db",
+			"module": "Warhammer_Team_Working",
+			"type": "Item",
+			"system": "wfrp4e"
+		},
+    {
+			"name": "Old_Journal",
+			"label": "Old_Journal",
+			"path": "assets/data/journal.db",
+			"module": "Warhammer_Team_Working",
+			"type": "JournalEntry",
+			"system": "wfrp4e"
+		},
+    {
+			"name": "Old_Macros",
+			"label": "Old_Macros",
+			"path": "assets/data/macros.db",
+			"module": "Warhammer_Team_Working",
+			"type": "Macro",
+			"system": "wfrp4e"
+		},
+    {
+			"name": "Old_Tables",
+			"label": "Old_Tables",
+			"path": "assets/data/tables.db",
+			"module": "Warhammer_Team_Working",
+			"type": "RollTable",
+			"system": "wfrp4e"
+		}
+    {
+			"name": "Old_Tables_Tables",
+			"label": "Old_Tables_Tables",
+			"path": "assets/packs/tablicy.db",
+			"module": "Warhammer_Team_Working",
+			"type": "RollTable",
+			"system": "wfrp4e"
+		}
   ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
